@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #2A3646;
+  --font-black: #1B325E;
+  --font-write: #EAEEFA;
+  --primary: #762FED;
+  --secundary: #A259CC;
+}
