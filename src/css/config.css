@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Staylista";
 }
 
 :root {
@@ -10,4 +11,129 @@
   --font-write: #EAEEFA;
   --primary: #762FED;
   --secundary: #A259CC;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  background-color: var(--background);
+  width: 100vw;
+  height: 100vh;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #334152;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0 10%;
+}
+
+#perfil-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#perfil-nav > img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#perfil-nav > .p1 {
+  color: var(--font-write);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#perfil-nav > .p2 {
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: -5px;
+}
+
+#list-nav {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+#list-nav > li {
+  list-style: none;
+}
+
+#list-nav > li a {
+  text-decoration: none;
+  color: var(--font-write);
+  transition: .6s;
+}
+
+#list-nav > li a:hover {
+  color: var(--primary);
+}
+
+#home {
+  margin-top: 70px;
+  width: 80vw;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.name-perfil {
+  display: flex;
+}
+
+.first-name {
+  color: var(--font-write);
+  font-size: 64px;
+}
+
+.last-name {
+  color: var(--primary);
+  font-size: 64px;
+  margin-top: 20px;
+  margin-left: -12px;
+  font-weight: 600;
+}
+
+.function {
+  font-size: 24px;
+  color: var(--font-write);
+  margin-top: -10px;
+  opacity: .4;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.links > a img {
+  width: 35px;
+}
+
+.img-perfil {
+  width: 550px;
+  opacity: .4;
+  border-radius: 35px;
+}
+
+.title {
+  font-size: 64px;
+  color: var(--font-write);
 }
