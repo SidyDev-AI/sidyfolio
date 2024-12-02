@@ -34,6 +34,7 @@ body {
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 0 10%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #perfil-nav {
@@ -133,7 +134,24 @@ body {
   border-radius: 35px;
 }
 
+/* Projects */
+
+#projects {
+  width: 80vw;
+  height: 700px;
+  border: 2px solid red;
+  margin-bottom: 25px;
+}
+
 .title {
   font-size: 64px;
   color: var(--font-write);
+}
+
+/* About */
+
+#about {
+  width: 80vw;
+  height: 700px;
+  border: 2px solid red;
 }
