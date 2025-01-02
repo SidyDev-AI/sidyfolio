@@ -91,7 +91,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  margin-bottom: 25px;
 }
 
 .name-perfil {
@@ -133,26 +132,4 @@ body {
   height: 350px;
   opacity: .4;
   border-radius: 50%;
-}
-
-/* Projects */
-
-#projects {
-  width: 80vw;
-  height: 700px;
-  border: 2px solid red;
-  margin-bottom: 25px;
-}
-
-.title {
-  font-size: 64px;
-  color: var(--font-write);
-}
-
-/* About */
-
-#about {
-  width: 80vw;
-  height: 700px;
-  border: 2px solid red;
 }
