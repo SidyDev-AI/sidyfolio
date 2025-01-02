@@ -89,7 +89,8 @@ body {
   height: 700px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
   margin-bottom: 25px;
 }
 
@@ -99,12 +100,12 @@ body {
 
 .first-name {
   color: var(--font-write);
-  font-size: 64px;
+  font-size: 74px;
 }
 
 .last-name {
   color: var(--primary);
-  font-size: 64px;
+  font-size: 74px;
   margin-top: 20px;
   margin-left: -12px;
   font-weight: 600;
@@ -113,7 +114,6 @@ body {
 .function {
   font-size: 24px;
   color: var(--font-write);
-  margin-top: -10px;
   opacity: .4;
 }
 
@@ -121,7 +121,7 @@ body {
   display: flex;
   gap: 15px;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .links > a img {
@@ -129,9 +129,10 @@ body {
 }
 
 .img-perfil {
-  width: 550px;
+  width: 350px;
+  height: 350px;
   opacity: .4;
-  border-radius: 35px;
+  border-radius: 50%;
 }
 
 /* Projects */
