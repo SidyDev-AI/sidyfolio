@@ -14,11 +14,11 @@
 }
 
 body {
-  display: grid;
-  justify-content: center;
   background-color: var(--background);
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
   overflow-x: hidden;
 }
 
@@ -33,9 +33,9 @@ body {
   left: 0;
   width: 100%; 
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   padding: 0 10%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(35, 43, 54, 0.9);
 
   & #perfil-nav {
     display: flex;
